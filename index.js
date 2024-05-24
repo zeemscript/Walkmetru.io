@@ -8,34 +8,10 @@ function updateImageSrc() {
     image.src = "./images/1Asset-25-2048x320.webp";
   }
 }
-
 window.onresize = updateImageSrc;
 updateImageSrc();
 
-// bottsrap newletter validation
 
-(() => {
-  "use strict";
-
-  // Fetch all the forms we want to apply custom Bootstrap validation styles to
-  const forms = document.querySelectorAll(".needs-validation");
-
-  // Loop over them and prevent submission
-  Array.from(forms).forEach((form) => {
-    form.addEventListener(
-      "submit",
-      (event) => {
-        if (!form.checkValidity()) {
-          event.preventDefault();
-          event.stopPropagation();
-        }
-
-        form.classList.add("was-validated");
-      },
-      false
-    );
-  });
-})();
 
 
 // scroll to top button
@@ -72,19 +48,4 @@ Mouseeeee()
 
 
 
-// faq code 
 
-document.addEventListener("DOMContentLoaded", function () {
-  var acc = document.getElementsByClassName("accordion-item");
-  for (var i = 0; i < acc.length; i++) {
-    acc[i].addEventListener("click", function () {
-      this.classList.toggle("active");
-      var panel = this.nextElementSibling;
-      if (panel.style.maxHeight) {
-        panel.style.maxHeight = null;
-      } else {
-        panel.style.maxHeight = panel.scrollHeight + "px";
-      }
-    });
-  }
-});
