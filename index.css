@@ -28,6 +28,7 @@ main{
   background-color: #003333;
   height: 65vh;
 }
+
 .tagline{
   font-family: cursive;
 }
@@ -76,8 +77,8 @@ main{
   background-color: #00B595;
 }
 .whywalkmetru{
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 70px;
+  margin-bottom: 40px;
 }
 @media (max-width: 767.98px) {
   .whywalkmetru{
@@ -97,6 +98,8 @@ main{
   margin-top: 130px;
   margin-bottom: 100px;
 }
+
+
 @media (max-width: 767.98px){
 .fast{
 height: 120vh;
@@ -125,14 +128,16 @@ height: 100vh;
 .testimony{
   background: #CCF0EA;
 }
-.faq{
-  padding-left: 100px;
-    padding-right: 100px;
 
+
+
+.accordion-button:not(.collapsed) {
+  background-color: white;
+  color: #00B595; 
 }
-.faqbody{
-  background-color: #CCF0EA;
 
+.samething{
+  background-color: #CCF0EA;
 }
 .rounded-circle{
   width: 60px; /* Adjust the size as needed */
@@ -157,7 +162,7 @@ font-size: 70px;
 }
 @media (max-width: 767.98px){
 .blogtext{
-font-size: 30px;
+font-size: 70px;
 }
 }
 /* foooter*/
@@ -173,12 +178,11 @@ i{
   cursor: pointer;
 }
 i:hover{
-  font-size: 40px;
   color: #00B595;
 }
 @media (max-width: 768.98px) {
 footer{
-  height: 180vh;
+  height: 160vh;
 }
 }
 .list-group-item{
@@ -458,3 +462,9 @@ button:hover .star-6 {
 .fil0 {
   fill: #003333;
 }
+
+
+
+
+
+
