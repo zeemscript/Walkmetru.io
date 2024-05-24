@@ -59,11 +59,11 @@ scrollToTopBtn.addEventListener("click", () => {
 const myElement = document.getElementById("myElement");
 function Mouseeeee() {
   myElement.addEventListener("mouseenter", () => {
-    myElement.classList.add("fa-bounce");
+    myElement.classList.add("fa-beat");
   });
 
   myElement.addEventListener("mouseleave", () => {
-    myElement.classList.remove("fa-bounce");
+    myElement.classList.remove("fa-beat");
   });  
 }
 Mouseeeee()
