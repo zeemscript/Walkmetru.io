@@ -52,7 +52,7 @@ main{
   }
 }
 /* small and smaller screens*/
-@media (max-width: 767.98px) {
+@media (max-width: 767px) {
   .hero {
     height: 80vh;
   }
@@ -80,7 +80,7 @@ main{
   margin-top: 70px;
   margin-bottom: 40px;
 }
-@media (max-width: 767.98px) {
+@media (max-width: 767px) {
   .whywalkmetru{
     padding-left: 10px;
   }
@@ -100,7 +100,7 @@ main{
 }
 
 
-@media (max-width: 767.98px){
+@media (max-width: 767px){
 .fast{
 height: 120vh;
 }
@@ -148,7 +148,7 @@ height: 100vh;
 .percentage{
   height: 35vh;
 }
-@media (max-width: 768.98){
+@media (max-width: 767){
 .percent{
   height: 25vh;
   margin-bottom: 20px;
@@ -160,7 +160,7 @@ height: 100vh;
 }.blogtext{
 font-size: 70px;
 }
-@media (max-width: 767.98px){
+@media (max-width: 767px){
 .blogtext{
 font-size: 70px;
 }
@@ -180,7 +180,7 @@ i{
 i:hover{
   color: #00B595;
 }
-@media (max-width: 768.98px) {
+@media (max-width: 767px) {
 footer{
   height: 160vh;
 }
